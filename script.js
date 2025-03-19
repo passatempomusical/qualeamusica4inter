@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "My Girl - Marianne Faithfull",
         "I Feel Love - Linda McCartney",
         "We Are The Champions - Olivia Newton-John",
-        "Woman In Love - BarbraStreisand"
+        "Woman In Love - Barbra Streisand"
       ]
     }
 
