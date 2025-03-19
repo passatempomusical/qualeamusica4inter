@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/Angel_JulianGrey.mp3",
-      correct: "Angel",
-      options: ["I Feel the Earth Move", "Angel", "My Love For You", "I Wish"]
+      correct: "Angel - Julian Grey",
+      options: ["I Feel the Earth Move - Pupo", "Angel - Julian Grey", "My Love For You - Nazareth", "I Wish - Tony Stevens"]
     },
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/CherryRed_BeeGees.mp3",
-      correct: "Cherry Red",
-      options: ["Lonely Boy", "Never Can Say Goodbye", "I Want You to Want Me", "Cherry Red"]
+      correct: "Cherry Red - Bee Gees",
+      options: ["Lonely Boy - Chris De BUrgh", "Never Can Say Goodbye - Chrystian", "I Want You to Want Me - Sharif Dean", "Cherry Red - Bee Gees"]
     },
     {
       song:
