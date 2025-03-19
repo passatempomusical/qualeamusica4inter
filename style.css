@@ -52,8 +52,8 @@ h1 {
   margin: 10px 0;
   padding: 15px;
   font-size: 18px;
-  background-color: #383607;
-  color: white;
+  background-color: #f5ff8c;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -61,7 +61,7 @@ h1 {
 }
 
 #options button:hover {
-  background-color: #1f1d04; /* Altera a cor ao passar o mouse */
+  background-color: #c5d420; /* Altera a cor ao passar o mouse */
 }
 
 /* Estilo para botões de resposta correta/errada */
