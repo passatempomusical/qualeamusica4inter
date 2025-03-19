@@ -3,129 +3,137 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const questions = [
     {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/Angel_JulianGrey.mp3",
-      correct: "Angel - Julian Grey",
-      options: ["I Feel the Earth Move - Pupo", "Angel - Julian Grey", "My Love For You - Nazareth", "I Wish - Tony Stevens"]
-    },
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/CherryRed_BeeGees.mp3",
-      correct: "Cherry Red - Bee Gees",
-      options: ["Lonely Boy - Jeff Lynne", "Never Can Say Goodbye - Chrystian", "I Want You to Want Me - Sharif Dean", "Cherry Red - Bee Gees"]
-    },
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/Happy_MichaelJackson.mp3",
-      correct: "Happy - Michael Jackson",
+      song: "https://radialistaedsonleite.github.io/qualeamusica4inter/Angel_JulianGrey.mp3",
+      name: "Angel",
+      artist: "Julian Grey",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/juliangreyAngel.jpg",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
       options: [
-        "Happy - Michael Jackson",
-        "The Gambler - George Harrison",
-        "Do You Needed Me? - Cat Stevens",
-        "Your Face - Ian Gillan"
+        { name: "I Feel the Earth Move", artist: "Pupo" },
+        { name: "Angel", artist: "Julian Grey" },
+        { name: "My Love For You", artist: "Nazareth" },
+        { name: "I Wish", artist: "Tony Stevens" }
       ]
     },
     {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/MySweetLord_GeorgeHarrison.mp3",
-      correct: "My Sweet Lord - George Harrison",
+      song: "https://radialistaedsonleite.github.io/qualeamusica4inter/CherryRed_BeeGees.mp3",
+      name: "Cherry Red",
+      artist: "Bee Gees",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/cherryredBeegees.jpg",
+      description: "Um lado menos conhecido dos Bee Gees, mas igualmente encantador.",
       options: [
-        "Lonely Sky - Chris de Burg",
-        "Imagine - Steve Winwood",
-        "My Sweet Lord - George Harrison",
-        "My Prayer - Dusty Springfield"
+        { name: "Lonely Boy", artist: "Jeff Lynne" },
+        { name: "Never Can Say Goodbye", artist: "Chrystian" },
+        { name: "I Want You to Want Me", artist: "Sharif Dean" },
+        { name: "Cherry Red", artist: "Bee Gees" }
       ]
     },
     {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/RainAndMemories_PaulDenver.mp3",
-      correct: "Rain And Memories - Paul Denver",
+      song: "https://radialistaedsonleite.github.io/qualeamusica4inter/MySweetLord_GeorgeHarrison.mp3",
+      name: "My Sweet Lord",
+      artist: "George Harrison",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/GeorgeHarrisonMyswetLord.jpg",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
       options: [
-        "Memories inside - Peter Gabriel",
-        "Rain And Memories - Paul Denver",
-        "No More Joke - Joe Cocker",
-        "My Dream - Petula Clark"
+        { name: "Lonely Sky", artist: "Chris de Burg" },  
+        { name: "Imagine", artist: "Steve Winwood" },
+        { name: "My Sweet Lord", artist: "George Harrison" },
+        { name: "My Prayer", artist: "Dusty Springfield" },     
       ]
     },
     {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/SheMadeMeCry_Pholhas.mp3",
-      correct: "She Made Me Cry - Pholhas",
+      song: "https://radialistaedsonleite.github.io/qualeamusica4inter/RainAndMemories_PaulDenver.mp3",
+      name: "Rain And Memories",
+      artist: "Paul Denver",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/RainAndMemories_PaulDenver.jpg",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
       options: [
-        "She Made Me Cry - Pholhas",
-        "Forever And Never - Cat Stevens",
-        "You Know My Dream - Elton John",
-        "Rain And Tears - David Bowie"
-      ]
+        { name: "Memories inside", artist: "Peter Gabriel" },
+        { name: "No More Joke", artist: "Joe Cocker" }, 
+        { name: "Rain And Memories", artist: "Paul Denver" }, 
+        { name: "My Dream", artist: "Petula Clark" },
+           ]
     },
-
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/SummerHoliday_TerryWinter.mp3",
-      correct: "Summer Holiday - Terry Winter",
-      options: ["Spring, Summer, Winter And Fall - Demis Roussos", "Summer Holiday - Terry Winter", "September More - Morris Albert", "I Needed You - Jim Diamond"]
-    },
-
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/TheLogicalSong_Supertramp.mp3",
-      correct: "The Logical Song - Supertramp",
+        {
+      song: "https://radialistaedsonleite.github.io/qualeamusica4inter/SheMadeMeCry_Pholhas.mp3",
+      name: "She Made Me Cry",
+      artist: "Pholhas",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/SheMadeMeCry_Pholhas.jpg",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
       options: [
-        "Free song - Tony Stevens",
-        "If You Leave Me Now - Chicago City",
-        "The End Of The World - Earl Grant",
-        "The Logical Song - Supertramp"]
+        { name: "She Made Me Cry", artist: "Pholhas" },
+        { name: "Forever And Never", artist: "Cat Stevens" }, 
+        { name: "You Know My Dream", artist: "Elton John" }, 
+        { name: "Rain And Tears", artist: "David Bowie" }  
+           ]
     },
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/WereAllAlone_RitaCoolidge.mp3",
-      correct: "Were All Alone - Rita Coolidge",
+        {
+      song: "",
+      name: "",
+      artist: "",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
       options: [
-        "Dream, Dream, Dream - Bonnie Tyler",
-        "Were All Alone - Rita Coolidge",
-        "I Love You Forever - Kiki Dee",
-        "My Reason - Annie Haslam"
-      ]
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" }
+           ]
     },
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica4inter/WomaninLove_BarbraStreisand.mp3",
-      correct: "Woman In Love - Barbra Streisand",
+        {
+      song: "",
+      name: "",
+      artist: "",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
       options: [
-        "My Girl - Marianne Faithfull",
-        "I Feel Love - Linda McCartney",
-        "We Are The Champions - Olivia Newton-John",
-        "Woman In Love - Barbra Streisand"
-      ]
-    }
-
-    // ... (as outras músicas aqui)
-  ];
-
-  // Descrições das músicas
-  const descriptions = [
-    "Julian Grey 👼 Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica. Julian Grey emociona com sua interpretação única e melodia cativante.",
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" }
+           ]
+    },
+        {
+      song: "",
+      name: "",
+      artist: "",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
+      options: [
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" }
+           ]
+    },
+        {
+      song: "",
+      name: "",
+      artist: "",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
+      options: [
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" }
+           ]
+    },
     
-    "Bee Gees 🍒 Um lado menos conhecido do Bee Gees, mas igualmente encantador. Com sua harmonia vocal impecável, a música transmite uma sensação de ternura e nostalgia.",
-    
-    "Michael Jackson 😊 Diferente dos grandes hits dançantes do Rei do Pop, essa canção mostra um lado mais introspectivo e sensível de Michael Jackson, com uma melodia doce e uma mensagem positiva.",
-    
-    
-    "George Harrison 🙏 Um clássico absoluto, onde George Harrison mistura elementos do rock e da espiritualidade em uma canção transcendental. Uma verdadeira oração em forma de música!",
-    
-    "Paul Denver 🌧️ balada romântica que evoca lembranças e saudade, com uma melodia suave que faz qualquer um se emocionar.",
-    
-    "Pholhas 😢 Com a pegada romântica característica da banda brasileira Pholhas, essa música traz uma letra melancólica e uma interpretação cheia de sentimento, perfeita para quem já teve o coração partido.",
-    
-    "Terry Winter 🎵 Uma canção nostálgica e animada que nos transporta para dias ensolarados e inesquecíveis. A melodia suave e a letra envolvente fazem dela um clássico para quem ama o romantismo dos anos 70.",
-    
-    "Supertramp 🎷 Um dos maiores sucessos do Supertramp, essa música combina uma melodia vibrante com uma letra reflexiva sobre a transição da infância para a vida adulta. Marcante pelo saxofone e pela voz inconfundível de Roger Hodgson.",
-    
-    "Rita Coolidge 🌊 Uma das baladas mais emocionantes dos anos 70, Rita Coolidge entrega uma interpretação suave e cheia de sentimento nesta versão que conquistou corações no mundo todo.",
-    
-    "Barbra Streisand ❤️ Escrita pelos irmãos Gibb (Bee Gees), essa música é um hino ao amor intenso e à entrega total em um relacionamento. A voz poderosa de Barbra Streisand torna essa canção inesquecível."
-    // Adicione as descrições das músicas aqui
-    // ...
+    {
+      song: "",
+      name: "",
+      artist: "",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/",
+      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
+      options: [
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" },
+        { name: "", artist: "" }
+           ]
+    },
+    // Adicione mais músicas aqui seguindo o mesmo padrão.
   ];
 
   let currentQuestionIndex = 0;
@@ -145,32 +153,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const q = questions[currentQuestionIndex];
     audio.src = q.song;
-    questionText.textContent = "Ouça, responda e marque pontos!";
+    questionText.textContent = "Ouça e responda: Qual é a música?";
     optionsContainer.innerHTML = "";
 
     q.options.forEach((option) => {
       const btn = document.createElement("button");
-      btn.textContent = option;
+      btn.innerHTML = `${option.name} <br><i>${option.artist}</i>`;
       btn.classList.add("option");
-      btn.onclick = () => checkAnswer(option);
+      btn.onclick = () => checkAnswer(option.name, option.artist);
       optionsContainer.appendChild(btn);
     });
 
     setTimeout(() => {
-      audio
-        .play()
-        .catch((error) => console.error("Erro ao reproduzir áudio:", error));
+      audio.play().catch((error) => console.error("Erro ao reproduzir áudio:", error));
     }, 500);
   }
 
-  function checkAnswer(answer) {
-    if (currentQuestionIndex >= questions.length) return;
-
+  function checkAnswer(selectedName, selectedArtist) {
     const q = questions[currentQuestionIndex];
     audio.pause();
     audio.currentTime = 0;
 
-    if (answer === q.correct) {
+    if (selectedName === q.name && selectedArtist === q.artist) {
       score += 10;
     } else {
       score -= 5;
@@ -190,54 +194,39 @@ document.addEventListener("DOMContentLoaded", () => {
   function showFinalScreen() {
     audio.pause();
     audio.currentTime = 0;
-
     gameContainer.style.display = "none";
     finalScreen.style.display = "block";
 
-    finalScreen.style.textAlign = "left";
-    finalScreen.style.padding = "20px";
+    let resultsHTML = `<h1 style="color: red;">Parabéns! Você fez ${score} pontos!</h1>`;
+    questions.forEach((q) => {
+      resultsHTML += `
+        <div style="margin-bottom: 20px;">
+          <strong>${q.name} - ${q.artist}</strong>
+          <br>
+          <img src="${q.image}" alt="${q.artist}" style="width: 150px; height: 150px;">
+          <p>${q.description}</p>
+        </div>
+      `;
+    });
 
-    const q = questions[currentQuestionIndex - 1]; // Última pergunta
+    finalScreen.innerHTML = resultsHTML + `
+      <button id="restart-btn">Jogar Novamente</button>
+      <button id="exit-btn">Fechar o Jogo</button>
+    `;
 
-    let commentsHTML = "";
-for (let i = 0; i < questions.length; i++) {
-  commentsHTML += `<p><strong>>>> "${questions[i].correct}":</strong> ${descriptions[i]}</p>`;
-}
-
-    // Atualizando a tela final com a pontuação
-    finalScreen.innerHTML = `
-    <h1 style="color: red; font-weight: bold; font-size: 2em;">Parabéns! Você já está com ${score} pontos!</h1>
-    <p>Sua pontuação final: <strong>${score}</strong> 🎉</p>
-    <div>${commentsHTML}</div>
-    
-    <!-- Contêiner para botões centralizados -->
-    <div class="buttons-container">
-        <button id="restart-btn">Jogar Novamente</button>
-        <button id="exit-btn">Fechar o Jogo</button>
-    </div>
-  `;
-
-    // Ações dos botões
-    document
-      .getElementById("restart-btn")
-      .addEventListener("click", restartGame);
-    document.getElementById("exit-btn").addEventListener("click", exitGame);
+    document.getElementById("restart-btn").addEventListener("click", restartGame);
+    document.getElementById("exit-btn").addEventListener("click", () => window.location.href = "https://google.com");
   }
 
   function restartGame() {
     currentQuestionIndex = 0;
-    score = parseInt(localStorage.getItem("playerScore")) || 0; // Recupera a pontuação salva
+    score = 0;
+    localStorage.setItem("playerScore", score);
     finalScreen.style.display = "none";
     gameContainer.style.display = "block";
     scoreText.textContent = `Pontuação: ${score}`;
     loadQuestion();
   }
-  function exitGame() {
-    const newUrl = `https://radialistaedsonleite.github.io/jogos-HTML/?score=${score}`;
-    alert("Volte sempre! Até a próxima! 🎶");
-    window.location.href = "https://radialistaedsonleite.github.io/jogos-HTML/";
-  }
 
-  scoreText.textContent = `Pontuação: ${score}`;
   loadQuestion();
 });
