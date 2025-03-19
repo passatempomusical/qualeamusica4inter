@@ -52,8 +52,8 @@ h1 {
   margin: 10px 0;
   padding: 15px;
   font-size: 18px;
-  background-color: #faffc7;
-  color: black;
+  background-color: #6b0608;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -61,7 +61,7 @@ h1 {
 }
 
 #options button:hover {
-  background-color: #c5d420; /* Altera a cor ao passar o mouse */
+  background-color: #4d0708; /* Altera a cor ao passar o mouse */
 }
 
 /* Estilo para botões de resposta correta/errada */
@@ -97,14 +97,14 @@ button {
   padding: 10px 20px;
   font-size: 22px;
   margin: 10px;
-  background: #1f1d04;
+  background: #6b0608;
   color: white;
   cursor: pointer;
   border-radius: 5px;
 }
 
 button:hover {
-  background-color: #1f1d04; /* Cor de destaque quando o mouse passa */
+  background-color: #4d0708; /* Cor de destaque quando o mouse passa */
 }
 
 .comment-block {
