@@ -12,90 +12,90 @@ document.addEventListener("DOMContentLoaded", () => {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/CherryRed_BeeGees.mp3",
       correct: "Cherry Red - Bee Gees",
-      options: ["Lonely Boy - Chris De BUrgh", "Never Can Say Goodbye - Chrystian", "I Want You to Want Me - Sharif Dean", "Cherry Red - Bee Gees"]
+      options: ["Lonely Boy - Jeff Lynne", "Never Can Say Goodbye - Chrystian", "I Want You to Want Me - Sharif Dean", "Cherry Red - Bee Gees"]
     },
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/Happy_MichaelJackson.mp3",
-      correct: "Happy",
+      correct: "Happy - Michael Jackson",
       options: [
-        "Happy",
-        "The Gambler",
-        "Do You Needed Me?",
-        "Your Face"
+        "Happy - Michael Jackson",
+        "The Gambler - George Harrison",
+        "Do You Needed Me? - Cat Stevens",
+        "Your Face - Ian Gillan"
       ]
     },
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/MySweetLord_GeorgeHarrison.mp3",
-      correct: "My Sweet Lord",
+      correct: "My Sweet Lord - George Harrison",
       options: [
-        "Lonely Sky",
-        "Imagine",
-        "My Sweet Lord",
-        "My Prayer"
+        "Lonely Sky - Chris de Burg",
+        "Imagine - Steve Winwood",
+        "My Sweet Lord - George Harrison",
+        "My Prayer - Dusty Springfield"
       ]
     },
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/RainAndMemories_PaulDenver.mp3",
-      correct: "Rain And Memories",
+      correct: "Rain And Memories - Paul Denver",
       options: [
-        "Memories inside",
-        "Rain And Memories",
-        "No More Joke",
-        "My Dream"
+        "Memories inside - Peter Gabriel",
+        "Rain And Memories - Paul Denver",
+        "No More Joke - Joe Cocker",
+        "My Dream - Petula Clark"
       ]
     },
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/SheMadeMeCry_Pholhas.mp3",
-      correct: "She Made Me Cry",
+      correct: "She Made Me Cry - Pholhas",
       options: [
-        "My Mistake",
-        "Forever And Never",
-        "She Made Me Cry",
-        "Rain And Tears"
+        "She Made Me Cry - Pholhas",
+        "Forever And Never - Cat Stevens",
+        "You Know My Dream - Elton John",
+        "Rain And Tears - David Bowie"
       ]
     },
 
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/SummerHoliday_TerryWinter.mp3",
-      correct: "Summer Holiday",
-      options: ["Spring, Summer, Winter And Fall", "Summer Holiday", "September More", "I Needed You"]
+      correct: "Summer Holiday - Terry Winter",
+      options: ["Spring, Summer, Winter And Fall - Demis Roussos", "Summer Holiday - Terry Winter", "September More - Morris Albert", "I Needed You - Jim Diamond"]
     },
 
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/TheLogicalSong_Supertramp.mp3",
-      correct: "The Logical Song",
+      correct: "The Logical Song - Supertramp",
       options: [
-        "Free song",
-        "If You Leave Me Now",
-        "The End Of The World",
-        "The Logical Song"]
+        "Free song - Tony Stevens",
+        "If You Leave Me Now - Chicago City",
+        "The End Of The World - Earl Grant",
+        "The Logical Song - Supertramp"]
     },
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/WereAllAlone_RitaCoolidge.mp3",
-      correct: "Were All Alone",
+      correct: "Were All Alone - Rita Coolidge",
       options: [
-        "Dream, Dream, Dream",
-        "Were All Alone",
-        "I Love You Forever",
-        "My Reason"
+        "Dream, Dream, Dream - Bonnie Tyler",
+        "Were All Alone - Rita Coolidge",
+        "I Love You Forever - Kiki Dee",
+        "My Reason - Annie Haslam"
       ]
     },
     {
       song:
         "https://radialistaedsonleite.github.io/qualeamusica4inter/WomaninLove_BarbraStreisand.mp3",
-      correct: "Woman In Love",
+      correct: "Woman In Love - Barbra Streisand",
       options: [
-        "My Girl",
-        "I Feel Love",
-        "We Are The Champions",
-        "Woman In Love"
+        "My Girl - Marianne Faithfull",
+        "I Feel Love - Linda McCartney",
+        "We Are The Champions - Olivia Newton-John",
+        "Woman In Love - BarbraStreisand"
       ]
     }
 
