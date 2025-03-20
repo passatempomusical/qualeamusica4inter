@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       song: "https://radialistaedsonleite.github.io/qualeamusica4inter/Angel_JulianGrey.mp3",
       name: "Angel",
       artist: "Julian Grey",
-      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/juliangreyAngel.jpg",
+      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/WomaninLove_BarbraStreisand1.jpg",
       description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
       options: [
         { name: "I Feel the Earth Move", artist: "Pupo" },
