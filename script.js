@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div style="margin-bottom: 20px;">
           <strong>${q.name} - ${q.artist}</strong>
           <br>
-          <img src="${q.image}" alt="${q.artist}" style="width: 250px; height: 250px;">
+          <img src="${q.image}" alt="${q.artist}" style="width: 300px; height: 300px;">
           <p>${q.description}</p>
         </div>
       `;
