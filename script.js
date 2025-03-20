@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("final-screen").style.display = "none";
 
-  const IMAGE_SIZE = 250; // 🔥 Altere aqui para mudar o tamanho das imagens (ex: 300 para 300x300px)
+  const IMAGE_SIZE = 400; // 🔥 Altere aqui para mudar o tamanho das imagens (ex: 300 para 300x300px)
 
   const questions = [
     {
