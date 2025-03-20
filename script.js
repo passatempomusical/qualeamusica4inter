@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Cherry Red",
       artist: "Bee Gees",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/cherryredBeegees.jpg",
-      description: "Um lado menos conhecido dos Bee Gees, mas igualmente encantador.",
+      description: "Cherry Red é uma música encantadora do Bee Gees, com o estilo característico da banda: harmonias vocais perfeitas e uma melodia que transmite uma sensação de calor e romance. A canção fala sobre os sentimentos de paixão e o desejo, com uma energia suave e sedutora.",
       options: [
         { name: "Lonely Boy", artist: "Jeff Lynne" },
         { name: "Never Can Say Goodbye", artist: "Chrystian" },
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "My Sweet Lord",
       artist: "George Harrison",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/GeorgeHarrisonMyswetLord.jpg",
-      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
+      description: "My Sweet Lord, do ex-Beatle George Harrison, é uma linda balada espiritual que mistura elementos de música hindu com a suavidade do rock. A canção reflete o profundo desejo de Harrison por conexão divina e paz interior, tornando-se um marco na sua carreira solo e um dos maiores sucessos dos anos 70.",
       options: [
         { name: "Lonely Sky", artist: "Chris de Burg" },  
         { name: "Imagine", artist: "Steve Winwood" },
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Happy",
       artist: "Michael Jackson",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/Happy_MichaelJackson.jpg",
-      description: "Descrição aqui",
+      description: "Happy é uma faixa animada e cheia de energia de Michael Jackson que transmite um otimismo contagiante. A música tem uma batida envolvente e uma mensagem positiva, fazendo com que qualquer um queira se levantar e dançar. Um verdadeiro clássico da música pop que ainda faz todos sorrirem!",
       options: [
         { name: "The Gambler", artist: "George Harrison" },
         { name: "Do You Needed Me?", artist: "Cat Stevens" }, 
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Rain And Memories",
       artist: "Paul Denver",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/RainAndMemories_PaulDenver.jpg",
-      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
+      description: "Uma balada suave, cheia de melancolia e nostalgia, Rain and Memories de Paul Denver é uma dessas músicas que transporta o ouvinte para um lugar de reflexão. A canção é como uma chuva de lembranças, onde a melodia suave e o tom introspectivo se misturam, criando uma atmosfera de serenidade e saudade.",
       options: [
         { name: "Memories inside", artist: "Peter Gabriel" },
         { name: "No More Joke", artist: "Joe Cocker" }, 
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "She Made Me Cry",
       artist: "Pholhas",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/SheMadeMeCry_Pholhas.jpg",
-      description: "Uma música envolvente e misteriosa, que transmite uma atmosfera etérea e melancólica.",
+      description: "Pholhas é uma banda clássica dos anos 70, e 'She Made Me Cry' é um exemplo perfeito de sua habilidade em criar baladas emocionais. A música conta a história de um homem sofrendo por amor perdido, com uma melodia que reflete a tristeza e a dor de um coração partido. Um verdadeiro clássico do pop brasileiro!",
       options: [
         { name: "She Made Me Cry", artist: "Pholhas" },
         { name: "Forever And Never", artist: "Cat Stevens" }, 
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Summer Holiday",
       artist: "Terry Winter",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/SummerHoliday_TerryWinter.jpg",
-      description: "Descrição aqui",
+      description: "Summer Holiday é uma faixa alegre e vibrante que celebra a época mais esperada do ano: o verão! Terry Winter captura o espírito livre das férias de verão, com uma melodia contagiante e letra que fala sobre diversão e aventura sob o sol. Ideal para um momento de descontração!",
       options: [
         { name: "Spring, Summer, Winter And Fall", artist: "Demis Roussos" },
         { name: "September More", artist: "Morris Albert" }, 
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "The Logical Song",
       artist: "Supertramp",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/TheLogicalSong_Supertramp.jpg",
-      description: "Descrição aqui",
+      description: "Um dos maiores sucessos do Supertramp, The Logical Song mistura rock progressivo com elementos de pop, criando uma reflexão profunda sobre a busca por identidade. Com uma melodia cativante e uma letra que questiona a lógica das convenções sociais, essa música se tornou um marco dos anos 70.",
       options: [
         { name: "Free song", artist: "Tony Stevens" },
         { name: "The Logical Song", artist: "Supertramp" }, 
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Woman In Love",
       artist: "Barbra Streisand",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/WomaninLove_BarbraStreisand.jpg",
-      description: "Descrição aqui",
+      description: "Um dos maiores sucessos de Barbra Streisand, 'Woman in Love' é uma canção emocionante sobre o amor profundo e incondicional. Com uma interpretação vocal impecável e uma orquestração grandiosa, a música captura toda a intensidade emocional que caracteriza o amor verdadeiro.",
       options: [
         { name: "My Girl", artist: "Marianne Faithfull" },
         { name: "I Feel Love", artist: "Linda McCartney" }, 
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Were All Alone",
       artist: "Rita Coolidge",
       image: "https://radialistaedsonleite.github.io/qualeamusica4inter/WereAllAlone_RitaCoolidge.jpg",
-      description: "Descrição aqui",
+      description: "We're All Alone é uma balada envolvente, onde Rita Coolidge entrega uma performance vocal poderosa e íntima. A canção fala sobre solidão e a necessidade de estar com alguém especial, com uma melodia doce e acolhedora, perfeita para os momentos românticos e introspectivos.",
       options: [
         { name: "Dream, Dream, Dream", artist: "Bonnie Tyler" },
         { name: "Were All Alone", artist: "Rita Coolidge" }, 
