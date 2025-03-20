@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("final-screen").style.display = "none";
 
-  const IMAGE_SIZE = 300; // 🔥 Altere aqui para mudar o tamanho das imagens (ex: 300 para 300x300px)
+  const IMAGE_SIZE = 400; // 🔥 Altere aqui para mudar o tamanho das imagens (ex: 300 para 300x300px)
 
   const questions = [
         {
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const q = questions[currentQuestionIndex];
     audio.src = q.song;
-    questionText.textContent = "Ouça e responda: Qual é a Música?";
+    questionText.textContent = "Clique no play, ouça e responda!";
     optionsContainer.innerHTML = "";
 
     q.options.forEach((option) => {
@@ -220,18 +220,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function generateFinalComments() {
-    return questions
-      .map(
-        (q) => `
-        <div style="margin-bottom: 20px; text-align: center;">
-          <img src="${q.image}" alt="${q.name}" style="width: ${IMAGE_SIZE}px; height: ${IMAGE_SIZE}px; display: block; margin: 10px auto;">
+  return questions
+    .map(
+      (q) => `
+        <div style="margin-bottom: 5px; text-align: center;">
+          <p>********>>>>>>>>>>>>>>>>>********</p> <!-- Aqui está o texto com os asteriscos -->
           <strong>${q.name} - ${q.artist}</strong>
+          <img src="${q.image}" alt="${q.name}" style="width: ${IMAGE_SIZE}px; height: ${IMAGE_SIZE}px; display: block; margin: 5px auto;">
           <p>${q.description}</p>
         </div>
       `
-      )
-      .join("");
-  }
+    )
+    .join("");
+}
+
 
   function restartGame() {
     currentQuestionIndex = 0;
@@ -243,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function exitGame() {
-    window.location.href = "https://google.com";
+    window.location.href = "https://radialistaedsonleite.github.io/jogos-HTML";
   }
 
   scoreText.textContent = `Pontuação: ${score}`; // Exibe a pontuação ao iniciar
