@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function exitGame() {
-    window.location.href = "https://radialistaedsonleite.github.io/jogos-HTML";
+    window.location.href = "https://radialistaedsonleite.github.io/principal";
   }
 
   scoreText.textContent = `Pontuação: ${score}`; // Exibe a pontuação ao iniciar
