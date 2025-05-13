@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const questions = [
         {
-      song: "https://radialistaedsonleite.github.io/qualeamusica4inter/Angel_JulianGrey.mp3",
+      song: "https://radialistaedsonleite.github.io/passatempomusical/Angel_JulianGrey.mp3",
       name: "Angel",
       artist: "Julian Grey",
-      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/juliangreyAngel.jpg",
+      image: "https://radialistaedsonleite.github.io/passatempomusical/juliangreyAngel.jpg",
       description: "Angel de Julian Grey é uma música suave e envolvente, com uma melodia que toca o coração e transmite uma sensação de pureza e serenidade. A canção fala sobre a beleza e a inspiração que alguém especial pode trazer à vida, com uma melodia que permanece com o ouvinte após a última nota.",
       options: [
         { name: "I Feel the Earth Move", artist: "Pupo" },
@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      song: "https://radialistaedsonleite.github.io/qualeamusica4inter/CherryRed_BeeGees.mp3",
+      song: "https://radialistaedsonleite.github.io/passatempomusical/CherryRed_BeeGees.mp3",
       name: "Cherry Red",
       artist: "Bee Gees",
-      image: "https://radialistaedsonleite.github.io/qualeamusica4inter/cherryredBeegees.jpg",
+      image: "https://radialistaedsonleite.github.io/passatempomusical/cherryredBeegees.jpg",
       description: "Cherry Red é uma música encantadora do Bee Gees, com o estilo característico da banda: harmonias vocais perfeitas e uma melodia que transmite uma sensação de calor e romance. A canção fala sobre os sentimentos de paixão e o desejo, com uma energia suave e sedutora.",
       options: [
         { name: "Lonely Boy", artist: "Jeff Lynne" },
